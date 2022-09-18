@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+}
+
+.main-wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2c2c2c
+}
+
+.figure-container{
+    display: flex;
+    align-items: center;
+}
+
+.figure{
+    width: 18px;
+    height: 18px;
+    background-color:#262E38;
+
+    border: none;
+    border-radius: 50px;
+}
+
+.title-center{
+text-align: center;
+}
+
+.thankyou-image{
+    width: 100px;
+    height: auto;
+    border: none;
+    border-radius: none;
+    text-align: center;
+    margin:  0 auto;
+}
+
+.hide{
+    display: none;
+}
+
+.card-1{
+    width: 412px;
+    height: 416px;
+background-color: #202630;
+    border-radius: 26px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text h2{
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.text p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    line-height: 24px;
+}
+
+.rating-container{
+    display: flex;
+    gap: 12px;
+    justify-content: space-evenly;
+}
+
+.rating-container p{
+    color: hsl(217, 12%, 63%);
+}
+
+.btn-container button{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 8px 0;
+    cursor: pointer;
+    border-radius: 35px;
+}
